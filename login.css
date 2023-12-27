@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  /* background-image: linear-gradient(#d9ed92, #b5e48c, #99d98c, #76c893, #34a0a4); */
+  background-color: rgba(137, 194, 217, 0.50);
+}
+
+
+.continer {
+  display: grid;
+  grid-template-rows: auto auto auto;
+}
+.navi {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #012a4a;
+  height: 50px;
+  align-self: center;
+}
+.navi h1 {
+  text-align: center;
+  color: #a9d6e5;
+}
+.navi h1 a {
+  color: #a9d6e5;
+  font-size: 23px;
+}
+.navi h1 a:hover {
+  color: #468faf;
+}
+.box1 {
+  height: auto;
+  width: 100%;
+  background-color: #013a63;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+.box1 h1 {
+  text-align: center;
+  color: #a9d6e5;
+  font-size: 100px;
+  align-items: center;
+  margin: 50px;
+}
+.box1 p {
+  text-align: justify;
+  color: #a9d6e5;
+  margin: 30px;
+  justify-content: right;
+
+  margin-left: 100px;
+  width: 650px;
+}
+.para2 i {
+  font-size: 20px;
+  color: #a9d6e5;
+  margin-left: 30px;
+}
+.box2 {
+  height: auto;
+  width: 400px;
+  background-color: #89C2D9;
+  margin: 40px auto; /* Set margin: 40px auto; to center horizontally */
+  text-align: center;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 form {
+  margin: 30px;
+  display: flex;
+  flex-direction: column; /* or row, depending on your layout */
+  
+  color: #012A4A;
+}
+.reme{
+  display: flex;
+  align-items: center;
+}
+.reme h5{
+  margin: 20px;
+}
+.reme h5 a{
+text-decoration: none;
+color: #012A4A;
+}
+.box2 form input {
+background-color: #01497C;
+border: none;
+border-radius: 5px;
+
+}
+.box2 form input::placeholder {
+  color: #A9D6E5;
+  text-align: center;
+}
+.input1{
+  height: 25px;
+}
+
+.sign a{
+  text-decoration: none;
+color: #014F86;
+margin-left: 10px;
+font-size: 15px;
+}
+.sign a:hover{
+color: #2A6F97;
+
+}
+.box2 button{
+  background-color: #01497C;
+  border: none;
+border-radius: 5px;
+padding: 10px;
+color:#89C2D9 ;
+font-weight: bold;
+margin-top: 20px;
+}
+.box2 button:hover{
+  background-color: #2C7DA0;
+color:#012A4A ;
+}
+
+
+
+/* ---------------------------------------- */
+
+@media only screen and (max-width: 375px) {
+    .box1 {
+        height: auto;
+        width: 100%;
+        background-color: #6a040f;
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+      }
+      .box1 h1 {
+        font-size: 90px;
+        align-items: center;
+        margin: 15px;
+      }
+      .box1 p {
+        text-align: justify;
+        color: #faa307;
+       align-items: center;
+        width: auto;
+      }
+      .box2 {
+        height: auto;
+        width: auto;
+
+        margin: 20px auto; /* Set margin: 40px auto; to center horizontally */
+
+      }
+}
